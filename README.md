@@ -1,1 +1,1 @@
-# Data-Visualization-Chicago-s-Automated-Speed-Enforcement-Program
+# Data Visualizations of Chicago's Automated Speed Enforcement Program
