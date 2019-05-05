@@ -15,9 +15,9 @@
 To further investigate the location in visualization 1 that has an increasing trend since 2016, it would be informative to compare the violations occurred in years for that location and the overall trend to detect abnormal occurance of violations.
 
 ### 3. Violation trend at the location with increasing number of violations
-</br>This visualization shows the monthly average number of violations over years for the location from above where voilations have been increasing since 2016. Given that the seasonality pattern 
+</br>This visualization shows the monthly average number of violations over years for the location from above where voilations have been increasing since 2016. Given the seasonality pattern that most of violations happens in the summer and less violations happens in the winter, there is an abnormal peak in November 2016 at this location that caused the total trend to increase from 2016. 
 ![Location with increasing number of violations](images/3-3.png)
-
+Investigations regarding this sudden increase in violations can be done and to prevent similar event to happen in the future.
 
 
 
