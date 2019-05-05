@@ -1,26 +1,22 @@
 # Data Visualizations of Chicago's Automated Speed Enforcement Program
 ## The Documentation of visualizations for the Chicago's speed violation data from 2014-2019
 [Tableau Public link for the visualizations](https://public.tableau.com/profile/yuhe.ren#!/vizhome/ChicagosSpeedEnforcementProgramAnalytics/Dashboard1)
+>This dataset reflects the daily volume of violations that have occurred in Children's Safety Zones for each camera. The data reflects violations that occurred from July 1, 2014 until present, minus the most recent 14 days. This data may change due to occasional time lags between the capturing of a potential violation and the processing and determination of a violation. The most recent 14 days are not shown due to revised data being submitted to the City of Chicago. The reported violations are those that have been collected by the camera and radar system and reviewed by two separate City contractors. 
+</br>[Data Scource]( https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4)
+
 ### 1. The violation trends for the 5 addresses with highest number of violations
 </br>The first visualization shows the trend lines of average violations for the top 5 locations with highest number of violations since 2014.During the data exploration, I found that for these locations are outliers ,with the average number of violations occurred were much higher than the median. Therefore, this visualization illustrates the trend of violations for these locations to investigate the effectiveness of the speed enforcement program in Chicago.
 ![locations with highest violations trend](images/1-1.png)
 </br>For the frist 4 locations, the trend of violations had been decreasing and dropped below median level after 2016. However, for the fifth location, there has been an increasing trend since 2016. It is important to further investigate the reason that violations at this locations started to increase in 2016, for the speed enforcement program to succeed as a whole.
 
 ### 2.Seasonality of violations within a year
-</br>
+</br>This visualization shows the seasonalyty pattern of violations happened over past years with the prediction line for next year. Previously during the data exploration, a sesonality pattern of the violation occurance that the peaks of violations happens in the summer of the year was revealed. Therefore, police resource can be allocated accordingly in order to increase the efficiency of the speed enforcement program. 
 ![Seasonality of violations within a year](images/2-2.png)
-Finnally, since I would recommend to arrange more police force in months with more violations than others, it is informative to add lable for the month that has most violatoins. 
-July is the month that has highest number of violations with a year.
+To further investigate the location in visualization 1 that has an increasing trend since 2016, it would be informative to compare the violations occurred in years for that location and the overall trend to detect abnormal occurance of violations.
 
-### 3. Locations with increasing number of violations
-</br>I have shown that there is an overall deceasing trend in violation over years and even for the locations with highest violations. However, there might be some locations that the number of violation is still increasing. If it is ture, there are definitely further investigation need to be made to discover the reason.
-</br>In order to test my hypothesis, I plotted the over year trend for each location.
-![Trend by locations](images/3.1.png)
-</br> Most of the locations have decreasing number of violations, but there are two locations that the number of violations are increasing.
-![Locations with increasing number of violations](images/3.2.png)
-</br>Then I visualized the change of violations at these two locations, and found for recent two years, the number of violations has increased drasticly, unlike at the rest of locations.
-</br>I would suggest to further investigate the reason that the speed enforcement program are not performing well at these two locations, especially for recent two years.
-![Locations with increasing number of violations](images/3.png)
+### 3. Violation trend at the location with increasing number of violations
+</br>This visualization shows the monthly average number of violations over years for the location from above where voilations have been increasing since 2016. Given that the seasonality pattern 
+![Location with increasing number of violations](images/3-3.png)
 
 
 
